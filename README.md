@@ -6,6 +6,9 @@ This project was developed as part of a Functional Programming course. It implem
 
 ## Technical Implementation
 **Paradigm**: Functional Programming.
+
 **Programming Language**: Standard ML.
+
 **Key Concepts**: Recursion, Pattern Matching, and List Manipulation.
+
 **Logic**: The algorithm breaks down the matrix into rows, then rotates it to check columns, and finally uses a helper function (fasce) to restructure the 3x3 blocks into lists for validation. Recursion is handled by using Pattern Matching to traverse the nested list structures.
