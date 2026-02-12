@@ -52,3 +52,4 @@ fun blocchi nil = true
    Verifies the Sudoku grid by checking rows, columns, and 3x3 blocks.
 *)
 fun verifySudoku L = righe(L) andalso colonne(L) andalso blocchi(fasce L);
+
